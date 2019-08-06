@@ -11,7 +11,7 @@ android {
 }
 
 dependencies {
-    provided 'com.facebook.react:react-native:+'
-    compile 'com.google.android.gms:play-services-base:+'
-    compile 'com.google.android.gms:play-services-maps:+'
+    implementation 'com.facebook.react:react-native:+'
+    implementation 'com.google.android.gms:play-services-base:+'
+    implementation 'com.google.android.gms:play-services-maps:+'
 }
